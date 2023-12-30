@@ -1,5 +1,6 @@
 #include "Serial.h"
 
+
 //串口通信核心
 void Serial::USART(QString port, QString baud, QString data,QString stop,QString check) {
     QSerialPort::BaudRate Baud;     //波特率
